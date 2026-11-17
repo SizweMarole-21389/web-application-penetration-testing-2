@@ -1,4 +1,4 @@
-# Web Application Penetration Test - Imgurr Image Marketplace
+# Web Application Penetration Testing 2 - Imgurr Image Marketplace
 
 A **private** write-up of a **black-box web application penetration test** against Imgurr, an image
 marketplace application provided as a lab. Testing started from an
