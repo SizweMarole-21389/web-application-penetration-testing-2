@@ -20,9 +20,6 @@ This is **CWE-306 (Missing Authentication for Critical Function)**, under **OWAS
 
 3. The response is still `200 OK`, and the genuine PDF document, complete with the voucher's code and monetary value, is returned in full, with no credentials of any kind required.
 
-## Evidence
-
-
 ## Business Impact
 
 This finding scores Medium on Confidentiality: the voucher document, and the monetary value it represents, is exposed to anyone who can enumerate or guess a code, undermining the confidentiality of the original purchaser's information, such as their name and the voucher's value, and the integrity of the voucher scheme as a control against a document a legitimate purchaser reasonably expects only they can retrieve.
