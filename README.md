@@ -1,13 +1,14 @@
 # Web Application Penetration Testing 2 - Imgurr Image Marketplace
 
-A **private** write-up of a **black-box web application penetration test** against Imgurr, an image
+A sanitised write-up of a **black-box web application penetration test** against Imgurr, an image
 marketplace application provided as a lab. Testing started from an
 unauthenticated visitor and a self-registered user, and reached remote code execution, administrator
 takeover, arbitrary file read and token theft.
 
-> ⚠️ **Private repository.** Proof markers are redacted in the text and hidden in the screenshots. Screenshots are
-> **not** blurred, so do not make this repository public without sanitising them first.
-> Testing was authorised and carried out in a lab. Nothing here should be used against a live system.
+> ⚠️ **Ethics & sanitisation.** This is an educational lab report. Proof markers ("flags") and
+> organisation branding are removed from the text and blurred in the screenshots. The lab passwords
+> and signing secret named in Findings 20 and 23 belong to a disposable training instance. Testing was
+> authorised and done in a lab. Nothing here should be used against a live system.
 
 **Assessor:** Sizwe Marole &nbsp;|&nbsp; **Assessment type:** Black-box web application penetration test
 **Dates:** 10 September - 6 October 2026 &nbsp;|&nbsp; **Report version:** 3.5
